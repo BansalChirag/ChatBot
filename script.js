@@ -4,7 +4,7 @@ const chatBox = document.querySelector('.chatbox')
 const chatBotToggler = document.querySelector('.chatbot-toggler')
 const chatbotCloseBtn = document.querySelector(".close-btn")
 const inputInitHeight = chatInput.scrollHeight;
-const OPENAI_API_KEY = "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"
+const OPENAI_API_KEY = "YOUR_API_KEY"
 let userMessage;
 
 const createChat = (message,className)=>{
